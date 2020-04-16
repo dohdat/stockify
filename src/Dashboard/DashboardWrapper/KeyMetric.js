@@ -14,14 +14,16 @@ class KeyMetric extends Component {
         <div>
             <h5  id ="title">Key Metric</h5>
             <Table striped bordered hover size="sm" >
-              <tbody>
-                <tr>
-                    <td> Moat </td>
-                    <td> No.of Fund owning </td>
-                    <td> Shape Ratio </td> 
-                    <td> Market Cap </td>
-                    <td> Sector </td> 
-                </tr>
+                <thead>
+                    <tr>
+                        <th> Moat </th>
+                        <th> No.of Fund owning </th>
+                        <th> Shape Ratio </th> 
+                        <th> Market Cap </th>
+                        <th> Sector </th> 
+                    </tr>
+                </thead>
+                <tbody>
                 <tr>
                     <td>{variable.Moat}</td>
                     <td> {variable.Funds}</td>
@@ -30,11 +32,11 @@ class KeyMetric extends Component {
                     <td> {variable.Sector}</td>
                 </tr>
                 <tr>
-                    <td> Price/Sales </td>
-                    <td> Price/Earnings </td>
-                    <td> Forward P/E </td> 
-                    <td> Price/Book </td>
-                    <td> PEG Ratio </td>
+                    <th> Price/Sales </th>
+                    <th> Price/Earnings </th>
+                    <th> Forward P/E </th> 
+                    <th> Price/Book </th>
+                    <th> PEG Ratio </th>
                 </tr>
                 <tr>
                     <td> {variable.PriceSales}</td>
@@ -44,11 +46,11 @@ class KeyMetric extends Component {
                     <td> {variable.PEGRatio}</td>
                 </tr>
                 <tr>
-                    <td> Rev 3-Yr Growth </td>
-                    <td> ROE % </td>
-                    <td> Operating Margin </td> 
-                    <td> Div Yield </td>
-                    <td> Current Ratio </td> 
+                    <th> Rev 3-Yr Growth </th>
+                    <th> ROE % </th>
+                    <th> Operating Margin </th> 
+                    <th> Div Yield </th>
+                    <th> Current Ratio </th> 
                 </tr>
                 <tr>
                     <td> {variable.Rev3YrGrowth}</td>

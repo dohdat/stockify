@@ -6,7 +6,7 @@ import Valuation from './Valuation';
 import FinancialHealth from './FinancialHealth';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import axios from 'axios';
-import '././css/Stock.css';
+import '../../css/Stock.css';
 
 
 let path;

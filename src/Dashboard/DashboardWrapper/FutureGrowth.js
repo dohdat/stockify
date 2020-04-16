@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {Nav, Table} from 'react-bootstrap';
 import NavStock from './NavStock';
-import '././css/Stock.css';
+import '../../css/Stock.css';
 
 let arrayData = [];
 class FutureGrowth extends Component {
@@ -14,7 +14,7 @@ class FutureGrowth extends Component {
 		console.log("this is in Feature Growth "+arrayData.Revenue);
         return(
 			<div>
-				<h5 className ="title">{arrayData.Name}</h5>
+				{/* <h5 className ="title">{arrayData.Name}</h5> */}
 				<NavStock { ...arrayData}></NavStock>
 		        <div id = "group1">
 		            <h5>Future Growth</h5>
@@ -43,7 +43,7 @@ class FutureGrowth extends Component {
 					  </thead>
 					  <tbody>
 					    <tr>
-					      <td>Sales/Revenue</td>
+					      <th>Sales/Revenue</th>
 					      <td>{arrayData.SalesRev2014}</td>
 					      <td>{arrayData.SalesRev2015}</td>
 					      <td>{arrayData.SalesRev2016}</td>
@@ -51,7 +51,7 @@ class FutureGrowth extends Component {
 						  <td>{arrayData.SalesRev2018}</td>
 					    </tr>
 					    <tr>
-					      <td>Sale Growth%</td>
+					      <th>Sale Growth%</th>
 					      <td>{arrayData.SaleGrowth2014}</td>
 					      <td>{arrayData.SaleGrowth2015}</td>
 						  <td>{arrayData.SaleGrowth2016}</td>
@@ -60,7 +60,7 @@ class FutureGrowth extends Component {
 
 					    </tr>
 					    <tr>
-					      <td>Net Income</td>
+					      <th>Net Income</th>
 					      <td>{arrayData.NetIncome2014}</td>
 					      <td>{arrayData.NetIncome2015}</td>
 						  <td>{arrayData.NetIncome2016}</td>
@@ -69,7 +69,7 @@ class FutureGrowth extends Component {
 
 					    </tr>
 					    <tr>
-					      <td>Net Income Growth %</td>
+					      <th>Net Income Growth %</th>
 					      <td>{arrayData.NetIncomeGrowth2014}</td>
 					      <td>{arrayData.NetIncomeGrowth2015}</td>
 						  <td>{arrayData.NetIncomeGrowth2016}</td>
@@ -77,7 +77,7 @@ class FutureGrowth extends Component {
 						  <td>{arrayData.NetIncomeGrowth2018}</td>
 					    </tr>
 					    <tr>
-					      <td>EPS</td>
+					      <th>EPS</th>
 					      <td>{arrayData.EPS2014}</td>
 						  <td>{arrayData.EPS2015}</td>
 						  <td>{arrayData.EPS2016}</td>
@@ -85,7 +85,7 @@ class FutureGrowth extends Component {
 						  <td>{arrayData.EPS2018}</td>
 					    </tr>
 					    <tr>
-					      <td>EPS Growth %</td>
+					      <th>EPS Growth %</th>
 					      <td>{arrayData.EPSGrowth2014}</td>
 						  <td>{arrayData.EPSGrowth2015}</td>
 						  <td>{arrayData.EPSGrowth2016}</td>

@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {Nav, Table} from 'react-bootstrap';
 import NavStock from './NavStock';
-import '././css/Stock.css';
+import '../../css/Stock.css';
 
 let arrayData = [];
 class Valuation extends Component {
@@ -12,7 +12,7 @@ class Valuation extends Component {
 		arrayData= this.props.location.state;
         return(
 			<div>
-				<h5 className ="title">{arrayData.Name}</h5>
+				{/* <h5 className ="title">{arrayData.Name}</h5> */}
 				<NavStock {...arrayData}> </NavStock>
 		        <div id = "group1">
 		            <h5>Valuation</h5>
@@ -34,7 +34,7 @@ class Valuation extends Component {
 		            <Table striped bordered hover size="sm" >
 					  <thead>
 					    <tr>
-					      <th></th>
+					      <th>Year</th>
 					      <th>2016</th>
 					      <th>2017</th>
 					      <th>2018</th>
@@ -44,7 +44,7 @@ class Valuation extends Component {
 					  </thead>
 					  <tbody>
 					    <tr>
-					      <td>Price/Earnings</td>
+					      <th>Price/Earnings</th>
 					      <td>{arrayData.PriceEarnings2016}</td>
 					      <td>{arrayData.PriceEarnings2017}</td>
 						  <td>{arrayData.PriceEarnings2018}</td>
@@ -52,7 +52,7 @@ class Valuation extends Component {
 						  <td>{arrayData.PriceEarningsIndustry}</td>
 					    </tr>
 					    <tr>
-					      <td>Price/Sales</td>
+					      <th>Price/Sales</th>
 					      <td>{arrayData.PriceSales2016}</td>
 						  <td>{arrayData.PriceSales2017}</td>
 						  <td>{arrayData.PriceSales2018}</td>
@@ -61,7 +61,7 @@ class Valuation extends Component {
 
 					    </tr>
 					    <tr>
-					      <td>Return On Assets %</td>
+					      <th>Return On Assets %</th>
 					      <td>{arrayData.ReturnOnAssets2016}</td>
 						  <td>{arrayData.ReturnOnAssets2017}</td>
 						  <td>{arrayData.ReturnOnAssets2018}</td>
@@ -69,7 +69,7 @@ class Valuation extends Component {
 						  <td>{arrayData.ReturnOnAssetsIndustry}</td>
 					    </tr>
 					    <tr>
-					      <td>Return On Equity %</td>
+					      <th>Return On Equity %</th>
 					      <td>{arrayData.ReturnOnEquity2016}</td>
 						  <td>{arrayData.ReturnOnEquity2017}</td>
 						  <td>{arrayData.ReturnOnEquity2018}</td>
@@ -77,7 +77,7 @@ class Valuation extends Component {
 						  <td>{arrayData.ReturnOnEquityIndustry}</td>
 					    </tr>
 					    <tr>
-					      <td>Gross Margins</td>
+					      <th>Gross Margins</th>
 					      <td>{arrayData.GrossMargins2016}</td>
 						  <td>{arrayData.GrossMargins2017}</td>
 						  <td>{arrayData.GrossMargins2018}</td>
@@ -85,7 +85,7 @@ class Valuation extends Component {
 						  <td>{arrayData.GrossMarginsIndustry}</td>
 					    </tr>
 					    <tr>
-					      <td> Operating Margin %</td>
+					      <th> Operating Margin %</th>
 					      <td>{arrayData.OperatingMargin2016}</td>
 					      <td>{arrayData.OperatingMargin2017}</td>
 						  <td>{arrayData.OperatingMargin2018}</td>

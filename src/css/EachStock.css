@@ -11,7 +11,7 @@
     min-height: 10vh;
 }
 .nav-link2{
-    width: 50%; 
+    width: 75%; 
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -42,3 +42,4 @@
 #bold-text{
     font-weight: 30;
 }
+

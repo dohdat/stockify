@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import '../../css/bootstrap.min.css';
 import { Navbar, Nav, Form, FormControl, Button, NavDropdown} from 'react-bootstrap';
 import {MDBCol, MDBFormInline, MDBIcon} from "mdbreact";
 

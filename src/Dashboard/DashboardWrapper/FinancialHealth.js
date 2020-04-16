@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {Nav, Table} from 'react-bootstrap';
 import NavStock from './NavStock';
-import '././css/Stock.css';
+import '../../css/Stock.css';
 
 let arrayData =[];
 class Valuation extends Component {
@@ -12,7 +12,7 @@ class Valuation extends Component {
 		arrayData = this.props.location.state;
         return(
 			<div>
-				<h5 className ="title">{arrayData.Name}</h5>
+				{/* <h5 className ="title">{arrayData.Name}</h5> */}
 				<NavStock { ...arrayData}></NavStock>
 		        <div id = "group1">
 		            <h5>Financial Health</h5>
@@ -42,7 +42,7 @@ class Valuation extends Component {
 					  </thead>
 					  <tbody>
 					    <tr>
-					      <td>Assets</td>
+					      <th>Assets</th>
 					      <td>{arrayData.Assets2014}</td>
 					      <td>{arrayData.Assets2015}</td>
 						  <td>{arrayData.Assets2016}</td>
@@ -51,7 +51,7 @@ class Valuation extends Component {
 
 					    </tr>
 					    <tr>
-					      <td>Assets Growth %</td>
+					      <th>Assets Growth %</th>
 					      <td>{arrayData.AssetsGrowth2014}</td>
 						  <td>{arrayData.AssetsGrowth2015}</td>
 						  <td>{arrayData.AssetsGrowth2016}</td>
@@ -59,7 +59,7 @@ class Valuation extends Component {
 						  <td>{arrayData.AssetsGrowth2018}</td>
 					    </tr>
 					    <tr>
-					      <td>Liabilties</td>
+					      <th>Liabilties</th>
 					      <td>{arrayData.Liabilties2014}</td>
 						  <td>{arrayData.Liabilties2015}</td>
 						  <td>{arrayData.Liabilties2016}</td>
@@ -68,7 +68,7 @@ class Valuation extends Component {
 
 					    </tr>
 					    <tr>
-					      <td>Liabilities Growth %</td>
+					      <th>Liabilities Growth %</th>
 					      <td>{arrayData.LiabilitiesGrowth2014}</td>
 						  <td>{arrayData.LiabilitiesGrowth2015}</td>
 						  <td>{arrayData.LiabilitiesGrowth2016}</td>
@@ -76,7 +76,7 @@ class Valuation extends Component {
 						  <td>{arrayData.LiabilitiesGrowth2018}</td>
 					    </tr>
 					    <tr>
-					      <td>Total Equity</td>
+					      <th>Total Equity</th>
 					      <td>{arrayData.TotalEquity2014}</td>
 						  <td>{arrayData.TotalEquity2015}</td>
 						  <td>{arrayData.TotalEquity2016}</td>
@@ -85,7 +85,7 @@ class Valuation extends Component {
 
 					    </tr>
 					    <tr>
-					      <td> Shareholders' Equity Growth %</td>
+					      <th> Shareholders' Equity Growth %</th>
 					      <td>{arrayData.ShareholdersEquityGrowth2014}</td>
 						  <td>{arrayData.ShareholdersEquityGrowth2015}</td>
 						  <td>{arrayData.ShareholdersEquityGrowth2016}</td>

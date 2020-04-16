@@ -1,8 +1,19 @@
-import React, {Component} from 'react';
+import React, {Component, Fragment} from 'react';
 import Nav from 'react-bootstrap/Nav';
-import '././css/EachStock.css';
+import '../../css/EachStock.css';
 import {Link} from 'react-router-dom';
 
+import { styled } from '@material-ui/core/styles';
+import Button from '@material-ui/core/Button';
+
+const MyButton = styled(Button)({
+  background: 'linear-gradient(to right ,#2b5876, #4e4376)',
+  border: '30',
+  boxShadow: '0 3px 5px 2px #373B44',
+  color: 'white',
+  height: 35,
+  padding: '0 30px',
+});
 let arrayData = [];
 class NavStock extends Component {
     constructor(props){
@@ -16,24 +27,6 @@ class NavStock extends Component {
         console.log( "this is data in nav" + JSON.stringify(this.props));
        return(
         <div>
-             {/* <Nav id = "options" as="ul">
-                <Nav.Item as="li">
-                    <Nav.Link href = '/Quote'>Quote </Nav.Link>
-                </Nav.Item>
-                <Nav.Item as="li">
-                    <Nav.Link href = '/FutureGrowth'>Future Growth</Nav.Link>
-                </Nav.Item>
-                <Nav.Item as="li">
-                    <Nav.Link href = '/Valuation'>Valuation</Nav.Link>
-                </Nav.Item>
-                <Nav.Item as="li">
-                    <Nav.Link href = '/FinancialHealth'>Financial Health</Nav.Link>
-                </Nav.Item>
-                <Nav.Item as="li">
-                    <Nav.Link >Company information</Nav.Link>
-                </Nav.Item>
-            </Nav> */}
-
             <nav className = "nav-link1">
                 <ul className="nav-link2">
                     <Link to = {
@@ -42,8 +35,9 @@ class NavStock extends Component {
                             state: arrayData
                         }
                     }>
-                        <li> Quote </li>
+                    <MyButton>Quote</MyButton>
                     </Link>
+                    <div></div>
 
                     <Link to = {
                         {
@@ -51,27 +45,29 @@ class NavStock extends Component {
                         state: arrayData
                         }
                     }>
-                        <li> Future Growth </li>
+                        <MyButton>Future Growth</MyButton>
                     </Link>
-
+                    <div></div>
                     <Link to = {
                         {
                         pathname: "/Valuation",
                         state: arrayData
                         }
                     }>
-                        <li> Valuation </li>
+                        <MyButton>Valuation</MyButton>
                     </Link>
+                    <div></div>
                     <Link to = {
                         {
                         pathname: "/FinancialHealth",
                         state: arrayData
                         }
                     }>
-                        <li>Financial Health </li>
+                        <MyButton>Financial Health</MyButton>
                     </Link>
+                    <div></div>
                     <Link>
-                        <li> Company information </li>
+                        <MyButton> Company information </MyButton>
                     </Link>
                 </ul>
             </nav>
