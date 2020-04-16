@@ -31,7 +31,7 @@ class App extends Component {
   render() {
     return (
       <div style={{
-          backgroundColor: '#0c0032'
+          backgroundColor: 'white'
         }}
         >
         <Router>
