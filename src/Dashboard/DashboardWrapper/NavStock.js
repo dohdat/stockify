@@ -66,8 +66,13 @@ class NavStock extends Component {
                         <MyButton>Financial Health</MyButton>
                     </Link>
                     <div></div>
-                    <Link>
-                        <MyButton> Company information </MyButton>
+                    <Link to = {
+                        {
+                        pathname: "/CompanyInformation",
+                        state: arrayData
+                        }
+                    }>
+                        <MyButton>Company Information</MyButton>
                     </Link>
                 </ul>
             </nav>
