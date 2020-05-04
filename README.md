@@ -19,11 +19,11 @@ This is a web application that turns a substantial amount of stock data into int
    - [x] Users can search for some specific companies
    - [x] User can past stock information via graphs
    - [x] User can view past information in details
-   - [ ] User can filter out stock based on some criteria
+   - [x] User can filter out stock based on some criteria
    
-### [Interactive Prototype](https://xd.adobe.com/view/692ceb06-330e-41b6-41ea-49516ca9aa95-1f1d/screen/89d4caf3-d658-4f4a-abec-f88d42b9f2e0/Portfolio-1/?fullscreen)
+## [Interactive Prototype](https://xd.adobe.com/view/692ceb06-330e-41b6-41ea-49516ca9aa95-1f1d/screen/89d4caf3-d658-4f4a-abec-f88d42b9f2e0/Portfolio-1/?fullscreen)
 
-## Video Demo
+## [Video Demo] (https://youtu.be/Z_BNoiCz6YM)
 [![Watch the video](https://img.youtube.com/vi/Z_BNoiCz6YM/0.jpg)](https://youtu.be/Z_BNoiCz6YM)
 
 ## Run
