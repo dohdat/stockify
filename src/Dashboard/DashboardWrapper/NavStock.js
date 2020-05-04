@@ -74,6 +74,15 @@ class NavStock extends Component {
                     }>
                         <MyButton>Company Information</MyButton>
                     </Link>
+                    <div></div>
+                    <Link to = {
+                        {
+                        pathname: "/Screener",
+                        state: arrayData
+                        }
+                    }>
+                        <MyButton>Screener</MyButton>
+                    </Link>
                 </ul>
             </nav>
 

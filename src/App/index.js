@@ -12,6 +12,7 @@ import FutureGrowth from '../Dashboard/DashboardWrapper/FutureGrowth';
 import Valuation from '../Dashboard/DashboardWrapper/Valuation';
 import FinancialHealth from '../Dashboard/DashboardWrapper/FinancialHealth';
 import CompanyInformation from '../Dashboard/DashboardWrapper/CompanyInformation';
+import Screener from '../Dashboard/DashboardWrapper/Screener/Screener'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 class App extends Component {
@@ -50,6 +51,7 @@ class App extends Component {
               <Route path="/Valuation" component={Valuation} />
               <Route path="/FinancialHealth" component={FinancialHealth} />
               <Route path="/CompanyInformation" component={CompanyInformation} />
+              <Route path="/Screener" component={Screener} />
             </Switch>
             <Footer />
             </div>
