@@ -24,7 +24,19 @@ This is a web application that turns a substantial amount of stock data into int
 ### [Interactive Prototype](https://xd.adobe.com/view/692ceb06-330e-41b6-41ea-49516ca9aa95-1f1d/screen/89d4caf3-d658-4f4a-abec-f88d42b9f2e0/Portfolio-1/?fullscreen)
 
 ## Video Demo
-[![Alt text](https://img.youtube.com/vi/VID/0.jpg)](https://www.youtube.com/watch?v=VID)
+[![Watch the video](https://img.youtube.com/vi/Z_BNoiCz6YM/0.jpg)](https://youtu.be/Z_BNoiCz6YM)
+
+## Run
+
+In the project directory, you can run:
+
+### `npm start`
+
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
 ## License
 
@@ -43,15 +55,5 @@ This is a web application that turns a substantial amount of stock data into int
     limitations under the License.
 
 
-## Available Scripts
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
 
