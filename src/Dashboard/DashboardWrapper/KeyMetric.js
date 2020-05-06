@@ -41,7 +41,7 @@ class KeyMetric extends Component {
                 <tr>
                     <td> {variable.PriceSales}</td>
                     <td> {variable.PriceEarnings}</td>
-                    <td> {variable.ForwardPE}</td>
+                    <td> {variable.PriceForwardEarnings}</td>
                     <td> {variable.PriceBook}</td>
                     <td> {variable.PEGRatio}</td>
                 </tr>
