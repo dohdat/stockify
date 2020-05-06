@@ -56,33 +56,33 @@ class Valuation extends Component {
 					      <td>{arrayData.PriceSales2016}</td>
 						  <td>{arrayData.PriceSales2017}</td>
 						  <td>{arrayData.PriceSales2018}</td>
-						  <td>{arrayData.PriceSalesCurrent}</td>
-						  <td>{arrayData.PriceSalesIndustry}</td>
+						  <td>{arrayData.PriceSales_Current}</td>
+						  <td>{arrayData.PriceSales_Industry}</td>
 
 					    </tr>
 					    <tr>
 					      <th>Return On Assets %</th>
-					      <td>{arrayData.ReturnOnAssets2016}</td>
-						  <td>{arrayData.ReturnOnAssets2017}</td>
-						  <td>{arrayData.ReturnOnAssets2018}</td>
-						  <td>{arrayData.ReturnOnAssetsCurrent}</td>
-						  <td>{arrayData.ReturnOnAssetsIndustry}</td>
+					      <td>{arrayData.ROA2016}</td>
+						  <td>{arrayData.ROA2017}</td>
+						  <td>{arrayData.ROA2018}</td>
+						  <td>{arrayData.ROA_Current}</td>
+						  <td>{arrayData.ROA_Industry}</td>
 					    </tr>
 					    <tr>
 					      <th>Return On Equity %</th>
-					      <td>{arrayData.ReturnOnEquity2016}</td>
-						  <td>{arrayData.ReturnOnEquity2017}</td>
-						  <td>{arrayData.ReturnOnEquity2018}</td>
-						  <td>{arrayData.ReturnOnEquityCurrent}</td>
-						  <td>{arrayData.ReturnOnEquityIndustry}</td>
+					      <td>{arrayData.ROE2016}</td>
+						  <td>{arrayData.ROE2017}</td>
+						  <td>{arrayData.ROE2018}</td>
+						  <td>{arrayData.ROE_Current}</td>
+						  <td>{arrayData.ROE_Industry}</td>
 					    </tr>
 					    <tr>
 					      <th>Gross Margins</th>
-					      <td>{arrayData.GrossMargins2016}</td>
-						  <td>{arrayData.GrossMargins2017}</td>
-						  <td>{arrayData.GrossMargins2018}</td>
-						  <td>{arrayData.GrossMarginsCurrent}</td>
-						  <td>{arrayData.GrossMarginsIndustry}</td>
+					      <td>{arrayData.GrossMargin2016}</td>
+						  <td>{arrayData.GrossMargin2017}</td>
+						  <td>{arrayData.GrossMargin2018}</td>
+						  <td>{arrayData.GrossMarginCurrent}</td>
+						  <td>{arrayData.GrossMarginIndustry}</td>
 					    </tr>
 					    <tr>
 					      <th> Operating Margin %</th>

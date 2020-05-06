@@ -59,12 +59,12 @@ class Valuation extends Component {
 						  <td>{arrayData.AssetsGrowth2018}</td>
 					    </tr>
 					    <tr>
-					      <th>Liabilties</th>
-					      <td>{arrayData.Liabilties2014}</td>
-						  <td>{arrayData.Liabilties2015}</td>
-						  <td>{arrayData.Liabilties2016}</td>
-						  <td>{arrayData.Liabilties2017}</td>
-						  <td>{arrayData.Liabilties2018}</td>
+					      <th>Liabilities</th>
+					      <td>{arrayData.Liabilities2014}</td>
+						  <td>{arrayData.Liabilities2015}</td>
+						  <td>{arrayData.Liabilities2016}</td>
+						  <td>{arrayData.Liabilities2017}</td>
+						  <td>{arrayData.Liabilities2018}</td>
 
 					    </tr>
 					    <tr>

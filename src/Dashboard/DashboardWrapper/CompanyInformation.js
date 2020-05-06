@@ -30,7 +30,7 @@ class CompanyInformation extends Component {
 						</Row>
 						<div></div>
 						<Row>
-							<Col xs lg="2">{arrayData.BusinessDescriptor}</Col>
+							<Col>{arrayData.BusinessDescriptor}</Col>
 							<Col xs lg="2">{arrayData.Sector}</Col>
 							<Col xs lg="2">{arrayData.Industry}</Col>
 						</Row>
